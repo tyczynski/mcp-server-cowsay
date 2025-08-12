@@ -1,0 +1,29 @@
+{
+  "name": "mcp-server-cowsay",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "description": "A simple MCP server to render a cow saying whatevery you want. For educational purposes ;)",
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "mcp:inspector": "npx @modelcontextprotocol/inspector"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "mcp",
+    "modelcontextprotocol",
+    "cowsay"
+  ],
+  "author": "Przemysław Tyczyński <me@p8w.io>",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.2",
+    "cowsay": "^1.6.0",
+    "zod": "^3.25.76"
+  }
+}
